@@ -94,9 +94,11 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-border">
-        <div className="max-w-[1400px] mx-auto px-6 py-5 flex items-center justify-between">
+        <div className="max-w-[1400px] mx-auto px-6 py-5 flex flex-col sm:flex-row items-center justify-between gap-2">
           <p className="text-[11px] text-text-tertiary uppercase tracking-[0.1em]">VIET-ERP 2026</p>
-          <p className="text-[11px] text-text-tertiary uppercase tracking-[0.1em]">OPEN SOURCE</p>
+          <p className="text-[10px] text-text-tertiary/50 tracking-[0.02em]">
+            Built with <a href="mailto:lam.nguyen@rtrobotics.me" className="hover:text-text-tertiary transition-colors">Vibecode Kit</a> + RRI
+          </p>
         </div>
       </div>
     </footer>
